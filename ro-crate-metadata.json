@@ -1,0 +1,129 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.1/context",
+    {
+      "@vocab": "http://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "identifier": "ro-crate-metadata.json",
+      "about": {
+        "@id": "inflam1"
+      }
+    },
+    {
+      "@id": "inflam1",
+      "@type": "Dataset",
+      "name": [
+        "inflam"
+      ],
+      "description": [
+        "a fork of the inflammation repo - praveen"
+      ],
+      "datePublished": [
+        "2025-10-30"
+      ],
+      "author": [
+        {
+          "@id": "#Person-1"
+        },
+        {
+          "@id": "#Person-2"
+        },
+        {
+          "@id": "#Person-3"
+        },
+        {
+          "@id": "#Person-4"
+        },
+        {
+          "@id": "#Person-5"
+        },
+        {
+          "@id": "#Person-6"
+        }
+      ]
+    },
+    {
+      "@id": "#Person-1",
+      "@type": "Person",
+      "name": [
+        "Aleksandra Nenadic"
+      ],
+      "familyName": [
+        "Nenadic"
+      ],
+      "givenName": [
+        "Aleksandra"
+      ]
+    },
+    {
+      "@id": "#Person-2",
+      "@type": "Person",
+      "name": [
+        "Steve Crouch"
+      ],
+      "familyName": [
+        "Crouch"
+      ],
+      "givenName": [
+        "Steve"
+      ]
+    },
+    {
+      "@id": "#Person-3",
+      "@type": "Person",
+      "name": [
+        "James Graham"
+      ],
+      "familyName": [
+        "Graham"
+      ],
+      "givenName": [
+        "James"
+      ]
+    },
+    {
+      "@id": "#Person-4",
+      "@type": "Person",
+      "name": [
+        "Sam Mangham"
+      ],
+      "familyName": [
+        "Mangham"
+      ],
+      "givenName": [
+        "Sam"
+      ]
+    },
+    {
+      "@id": "#Person-5",
+      "@type": "Person",
+      "name": [
+        "Jacalyn Laird"
+      ],
+      "familyName": [
+        "Laird"
+      ],
+      "givenName": [
+        "Jacalyn"
+      ]
+    },
+    {
+      "@id": "#Person-6",
+      "@type": "Person",
+      "name": [
+        "Martin Robinson"
+      ],
+      "familyName": [
+        "Robinson"
+      ],
+      "givenName": [
+        "Martin"
+      ]
+    }
+  ]
+}
